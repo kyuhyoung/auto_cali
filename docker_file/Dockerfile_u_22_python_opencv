@@ -13,4 +13,7 @@ RUN pip3 install opencv-python
 
 RUN apt install libxcb-xinerama0
 
+RUN pip3 install sympy
+RUN pip3 install scipy
+
 CMD ["fish"]
